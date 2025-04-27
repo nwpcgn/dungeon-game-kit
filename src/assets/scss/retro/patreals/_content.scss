@@ -1,0 +1,18 @@
+.content,
+.content-sm {
+	width: var(--page-width);
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: var(--content-space);
+
+	&.flat {
+		padding: 0px var(--content-space);
+	}
+	&.min {
+		padding: 0px 0px;
+	}
+}
+.content-sm {
+	width: var(--page-width-sm);
+}

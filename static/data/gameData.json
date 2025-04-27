@@ -1,0 +1,1242 @@
+{
+	"character": [
+		{
+			"id": 1,
+			"name": "Bulbasaur",
+			"hp": 30,
+			"atk": 6,
+			"def": 5,
+			"mana": 4,
+			"sp": 4
+		},
+		{
+			"id": 2,
+			"name": "Ivysaur",
+			"hp": 28,
+			"atk": 7,
+			"def": 5,
+			"mana": 8,
+			"sp": 3
+		},
+		{
+			"id": 3,
+			"name": "Gigantamax Venusaur",
+			"hp": 32,
+			"atk": 5,
+			"def": 3,
+			"mana": 9,
+			"sp": 4
+		},
+		{
+			"id": 4,
+			"name": "Charmander",
+			"hp": 33,
+			"atk": 6,
+			"def": 3,
+			"mana": 7,
+			"sp": 9
+		},
+		{
+			"id": 5,
+			"name": "Charmeleon",
+			"hp": 27,
+			"atk": 6,
+			"def": 4,
+			"mana": 5,
+			"sp": 4
+		},
+		{
+			"id": 6,
+			"name": "Charizard",
+			"hp": 35,
+			"atk": 5,
+			"def": 5,
+			"mana": 9,
+			"sp": 9
+		},
+		{
+			"id": 7,
+			"name": "Squirtle",
+			"hp": 30,
+			"atk": 7,
+			"def": 4,
+			"mana": 6,
+			"sp": 5
+		},
+		{
+			"id": 8,
+			"name": "Wartortle",
+			"hp": 25,
+			"atk": 8,
+			"def": 5,
+			"mana": 6,
+			"sp": 4
+		},
+		{
+			"id": 9,
+			"name": "Blastoise",
+			"hp": 30,
+			"atk": 7,
+			"def": 3,
+			"mana": 4,
+			"sp": 4
+		},
+		{
+			"id": 10,
+			"name": "Gigantamax Blasoise",
+			"hp": 32,
+			"atk": 7,
+			"def": 6,
+			"mana": 4,
+			"sp": 9
+		},
+		{
+			"id": 11,
+			"name": "Mega Blastoise",
+			"hp": 34,
+			"atk": 8,
+			"def": 5,
+			"mana": 4,
+			"sp": 8
+		},
+		{
+			"id": 12,
+			"name": "Caterpie",
+			"hp": 34,
+			"atk": 4,
+			"def": 5,
+			"mana": 5,
+			"sp": 8
+		},
+		{
+			"id": 13,
+			"name": "Metapod",
+			"hp": 27,
+			"atk": 5,
+			"def": 6,
+			"mana": 3,
+			"sp": 9
+		},
+		{
+			"id": 14,
+			"name": "Butterfree",
+			"hp": 29,
+			"atk": 8,
+			"def": 6,
+			"mana": 7,
+			"sp": 3
+		},
+		{
+			"id": 15,
+			"name": "Gigantamax Butterfree",
+			"hp": 26,
+			"atk": 8,
+			"def": 6,
+			"mana": 4,
+			"sp": 5
+		},
+		{
+			"id": 16,
+			"name": "Weedle",
+			"hp": 29,
+			"atk": 5,
+			"def": 5,
+			"mana": 5,
+			"sp": 3
+		},
+		{
+			"id": 17,
+			"name": "Kakuna",
+			"hp": 26,
+			"atk": 6,
+			"def": 6,
+			"mana": 3,
+			"sp": 8
+		},
+		{
+			"id": 18,
+			"name": "Beedrill",
+			"hp": 26,
+			"atk": 8,
+			"def": 6,
+			"mana": 6,
+			"sp": 9
+		},
+		{
+			"id": 19,
+			"name": "Mega Beedrill",
+			"hp": 28,
+			"atk": 8,
+			"def": 5,
+			"mana": 5,
+			"sp": 9
+		},
+		{
+			"id": 20,
+			"name": "Pidgey",
+			"hp": 34,
+			"atk": 6,
+			"def": 5,
+			"mana": 5,
+			"sp": 9
+		},
+		{
+			"id": 21,
+			"name": "Pidgeotto",
+			"hp": 26,
+			"atk": 5,
+			"def": 6,
+			"mana": 9,
+			"sp": 3
+		},
+		{
+			"id": 22,
+			"name": "Mega Pidgeot",
+			"hp": 32,
+			"atk": 6,
+			"def": 6,
+			"mana": 3,
+			"sp": 9
+		},
+		{
+			"id": 23,
+			"name": "Pidgeot",
+			"hp": 25,
+			"atk": 7,
+			"def": 6,
+			"mana": 5,
+			"sp": 6
+		},
+		{
+			"id": 24,
+			"name": "Rattata",
+			"hp": 28,
+			"atk": 8,
+			"def": 5,
+			"mana": 9,
+			"sp": 5
+		},
+		{
+			"id": 25,
+			"name": "Raticate",
+			"hp": 30,
+			"atk": 5,
+			"def": 3,
+			"mana": 6,
+			"sp": 3
+		},
+		{
+			"id": 26,
+			"name": "Spearow",
+			"hp": 33,
+			"atk": 5,
+			"def": 5,
+			"mana": 6,
+			"sp": 8
+		},
+		{
+			"id": 27,
+			"name": "Fearow",
+			"hp": 26,
+			"atk": 6,
+			"def": 5,
+			"mana": 7,
+			"sp": 4
+		},
+		{
+			"id": 28,
+			"name": "Ekans",
+			"hp": 34,
+			"atk": 8,
+			"def": 5,
+			"mana": 7,
+			"sp": 7
+		},
+		{
+			"id": 109,
+			"name": "Hypno",
+			"hp": 26,
+			"atk": 6,
+			"def": 5,
+			"mana": 3,
+			"sp": 8
+		},
+		{
+			"id": 110,
+			"name": "Krabby",
+			"hp": 26,
+			"atk": 8,
+			"def": 6,
+			"mana": 7,
+			"sp": 4
+		},
+		{
+			"id": 111,
+			"name": "Gigantamax Kingler",
+			"hp": 26,
+			"atk": 4,
+			"def": 4,
+			"mana": 8,
+			"sp": 5
+		},
+		{
+			"id": 112,
+			"name": "Kingler",
+			"hp": 29,
+			"atk": 8,
+			"def": 6,
+			"mana": 3,
+			"sp": 6
+		},
+		{
+			"id": 113,
+			"name": "Mew",
+			"hp": 34,
+			"atk": 7,
+			"def": 5,
+			"mana": 6,
+			"sp": 9
+		}
+	],
+	"loot": [
+		{
+			"id": 1,
+			"name": "Rusty Sword",
+			"rarity": "common",
+			"type": "weapon",
+			"dropChance": 40,
+			"icon": "loot-01",
+			"value": 1
+		},
+		{
+			"id": 2,
+			"name": "Iron Axe",
+			"rarity": "uncommon",
+			"type": "weapon",
+			"dropChance": 30,
+			"icon": "loot-02",
+			"value": 1
+		},
+		{
+			"id": 3,
+			"name": "Flame Bow",
+			"rarity": "rare",
+			"type": "weapon",
+			"dropChance": 20,
+			"icon": "loot-03",
+			"value": 1
+		},
+		{
+			"id": 4,
+			"name": "Shadow Dagger",
+			"rarity": "epic",
+			"type": "weapon",
+			"dropChance": 7,
+			"icon": "loot-04",
+			"value": 1
+		},
+		{
+			"id": 5,
+			"name": "Blade of Eternity",
+			"rarity": "legendary",
+			"type": "weapon",
+			"dropChance": 3,
+			"icon": "loot-05",
+			"value": 1
+		},
+		{
+			"id": 6,
+			"name": "Leather Armor",
+			"rarity": "common",
+			"type": "armor",
+			"dropChance": 50,
+			"icon": "loot-06",
+			"value": 1
+		},
+		{
+			"id": 7,
+			"name": "Iron Plate",
+			"rarity": "uncommon",
+			"type": "armor",
+			"dropChance": 25,
+			"icon": "loot-07",
+			"value": 1
+		},
+		{
+			"id": 8,
+			"name": "Magic Robe",
+			"rarity": "rare",
+			"type": "armor",
+			"dropChance": 15,
+			"icon": "loot-08",
+			"value": 1
+		},
+		{
+			"id": 9,
+			"name": "Dragon Scale Armor",
+			"rarity": "epic",
+			"type": "armor",
+			"dropChance": 7,
+			"icon": "loot-09",
+			"value": 1
+		},
+		{
+			"id": 10,
+			"name": "Aegis of the Ancients",
+			"rarity": "legendary",
+			"type": "armor",
+			"dropChance": 3,
+			"icon": "loot-10",
+			"value": 1
+		},
+		{
+			"id": 11,
+			"name": "Health Potion",
+			"rarity": "common",
+			"type": "potion",
+			"dropChance": 60,
+			"icon": "loot-11",
+			"value": 1
+		},
+		{
+			"id": 12,
+			"name": "Mana Potion",
+			"rarity": "common",
+			"type": "potion",
+			"dropChance": 20,
+			"icon": "loot-12",
+			"value": 1
+		},
+		{
+			"id": 13,
+			"name": "Stamina Elixir",
+			"rarity": "uncommon",
+			"type": "potion",
+			"dropChance": 10,
+			"icon": "loot-13",
+			"value": 1
+		},
+		{
+			"id": 14,
+			"name": "Potion of Invincibility",
+			"rarity": "epic",
+			"type": "potion",
+			"dropChance": 5,
+			"icon": "loot-14",
+			"value": 1
+		},
+		{
+			"id": 15,
+			"name": "Elixir of Time",
+			"rarity": "legendary",
+			"type": "potion",
+			"dropChance": 5,
+			"icon": "loot-15",
+			"value": 1
+		},
+		{
+			"id": 16,
+			"name": "Iron Ore",
+			"rarity": "common",
+			"type": "material",
+			"dropChance": 40,
+			"icon": "loot-16",
+			"value": 1
+		},
+		{
+			"id": 17,
+			"name": "Enchanted Wood",
+			"rarity": "uncommon",
+			"type": "material",
+			"dropChance": 30,
+			"icon": "loot-17",
+			"value": 1
+		},
+		{
+			"id": 18,
+			"name": "Soul Shard",
+			"rarity": "rare",
+			"type": "material",
+			"dropChance": 20,
+			"icon": "loot-18",
+			"value": 1
+		},
+		{
+			"id": 19,
+			"name": "Mystic Crystal",
+			"rarity": "epic",
+			"type": "material",
+			"dropChance": 7,
+			"icon": "loot-19",
+			"value": 1
+		},
+		{
+			"id": 20,
+			"name": "Void Essence",
+			"rarity": "legendary",
+			"type": "material",
+			"dropChance": 3,
+			"icon": "loot-20",
+			"value": 1
+		},
+		{
+			"id": 21,
+			"name": "Mystery Key",
+			"rarity": "uncommon",
+			"type": "special",
+			"dropChance": 50,
+			"icon": "loot-21",
+			"value": 1
+		},
+		{
+			"id": 22,
+			"name": "Treasure Map",
+			"rarity": "rare",
+			"type": "special",
+			"dropChance": 25,
+			"icon": "loot-22",
+			"value": 1
+		},
+		{
+			"id": 23,
+			"name": "Teleport Scroll",
+			"rarity": "rare",
+			"type": "special",
+			"dropChance": 15,
+			"icon": "loot-23",
+			"value": 1
+		},
+		{
+			"id": 24,
+			"name": "Pet Egg",
+			"rarity": "epic",
+			"type": "special",
+			"dropChance": 7,
+			"icon": "loot-24",
+			"value": 1
+		},
+		{
+			"id": 25,
+			"name": "Ancient Relic",
+			"rarity": "legendary",
+			"type": "special",
+			"dropChance": 3,
+			"icon": "loot-25",
+			"value": 1
+		},
+		{
+			"id": 26,
+			"name": "Bronze Spear",
+			"rarity": "common",
+			"type": "weapon",
+			"dropChance": 35,
+			"icon": "loot-26",
+			"value": 1
+		},
+		{
+			"id": 27,
+			"name": "Silver Hammer",
+			"rarity": "uncommon",
+			"type": "weapon",
+			"dropChance": 25,
+			"icon": "loot-27",
+			"value": 1
+		},
+		{
+			"id": 28,
+			"name": "Storm Staff",
+			"rarity": "rare",
+			"type": "weapon",
+			"dropChance": 20,
+			"icon": "loot-28",
+			"value": 1
+		},
+		{
+			"id": 29,
+			"name": "Vampire Fang Blade",
+			"rarity": "epic",
+			"type": "weapon",
+			"dropChance": 10,
+			"icon": "loot-29",
+			"value": 1
+		},
+		{
+			"id": 30,
+			"name": "Phoenix Claw",
+			"rarity": "legendary",
+			"type": "weapon",
+			"dropChance": 5,
+			"icon": "loot-30",
+			"value": 1
+		},
+		{
+			"id": 31,
+			"name": "Chainmail Vest",
+			"rarity": "common",
+			"type": "armor",
+			"dropChance": 45,
+			"icon": "loot-31",
+			"value": 1
+		},
+		{
+			"id": 32,
+			"name": "Runed Cloak",
+			"rarity": "uncommon",
+			"type": "armor",
+			"dropChance": 25,
+			"icon": "loot-32",
+			"value": 1
+		},
+		{
+			"id": 33,
+			"name": "Obsidian Shield",
+			"rarity": "rare",
+			"type": "armor",
+			"dropChance": 15,
+			"icon": "loot-33",
+			"value": 1
+		},
+		{
+			"id": 34,
+			"name": "Celestial Plate",
+			"rarity": "epic",
+			"type": "armor",
+			"dropChance": 10,
+			"icon": "loot-34",
+			"value": 1
+		},
+		{
+			"id": 35,
+			"name": "Astral Shell",
+			"rarity": "legendary",
+			"type": "armor",
+			"dropChance": 5,
+			"icon": "loot-35",
+			"value": 1
+		},
+		{
+			"id": 36,
+			"name": "Minor Healing Potion",
+			"rarity": "common",
+			"type": "potion",
+			"dropChance": 55,
+			"icon": "loot-36",
+			"value": 1
+		},
+		{
+			"id": 37,
+			"name": "Energy Tonic",
+			"rarity": "uncommon",
+			"type": "potion",
+			"dropChance": 20,
+			"icon": "loot-37",
+			"value": 1
+		},
+		{
+			"id": 38,
+			"name": "Shield Elixir",
+			"rarity": "rare",
+			"type": "potion",
+			"dropChance": 15,
+			"icon": "loot-38",
+			"value": 1
+		},
+		{
+			"id": 39,
+			"name": "Fire Resistance Brew",
+			"rarity": "epic",
+			"type": "potion",
+			"dropChance": 7,
+			"icon": "loot-39",
+			"value": 1
+		},
+		{
+			"id": 40,
+			"name": "Void Brew",
+			"rarity": "legendary",
+			"type": "potion",
+			"dropChance": 3,
+			"icon": "loot-40",
+			"value": 1
+		},
+		{
+			"id": 41,
+			"name": "Copper Nugget",
+			"rarity": "common",
+			"type": "material",
+			"dropChance": 45,
+			"icon": "loot-41",
+			"value": 1
+		},
+		{
+			"id": 42,
+			"name": "Spirit Leaf",
+			"rarity": "uncommon",
+			"type": "material",
+			"dropChance": 25,
+			"icon": "loot-42",
+			"value": 1
+		},
+		{
+			"id": 43,
+			"name": "Dragon Bone",
+			"rarity": "rare",
+			"type": "material",
+			"dropChance": 15,
+			"icon": "loot-43",
+			"value": 1
+		},
+		{
+			"id": 44,
+			"name": "Arcane Dust",
+			"rarity": "epic",
+			"type": "material",
+			"dropChance": 10,
+			"icon": "loot-44",
+			"value": 1
+		},
+		{
+			"id": 45,
+			"name": "Star Core",
+			"rarity": "legendary",
+			"type": "material",
+			"dropChance": 5,
+			"icon": "loot-45",
+			"value": 1
+		},
+		{
+			"id": 46,
+			"name": "Treasure Compass",
+			"rarity": "uncommon",
+			"type": "special",
+			"dropChance": 40,
+			"icon": "loot-23",
+			"value": 1
+		},
+		{
+			"id": 47,
+			"name": "Golden Chest Key",
+			"rarity": "rare",
+			"type": "special",
+			"dropChance": 25,
+			"icon": "loot-24",
+			"value": 1
+		},
+		{
+			"id": 48,
+			"name": "Teleport Rune",
+			"rarity": "epic",
+			"type": "special",
+			"dropChance": 10,
+			"icon": "loot-25",
+			"value": 1
+		},
+		{
+			"id": 49,
+			"name": "Summoning Stone",
+			"rarity": "epic",
+			"type": "special",
+			"dropChance": 7,
+			"icon": "loot-26",
+			"value": 1
+		},
+		{
+			"id": 50,
+			"name": "Dimensional Coin",
+			"rarity": "legendary",
+			"type": "special",
+			"dropChance": 3,
+			"icon": "loot-27",
+			"value": 1
+		}
+	],
+	"alerts": [
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Du spürst eine warme Energie – deine Wunden heilen sich!"
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Ein Lichtstrahl trifft dich. Du fühlst dich plötzlich stärker."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Du findest einen geheimen Pfadder dir Zeit erspart."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Ein freundlicher Geist überreicht dir ein Geschenk."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Ein alter Zauber wurde aufgelöst – du fühlst dich erleichtert."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Die Sonne bricht durch die Wolken und füllt dich mit Hoffnung."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Du entdeckst eine Quelle reiner Magie – deine Kraft ist erneuert."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Ein Reisender segnet dich mit Glück auf deinem Weg."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Ein altes Lied erklingt – du fühlst dich inspiriert."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Ein Schutzkreis schützt dich vor dem nächsten Schaden."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Du wirst mit einer Vision der Zukunft erfüllt – und fühlst dich vorbereitet."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Du erhältst einen geheimen Segen – deine nächste Begegnung wird einfacher."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Ein Vogel bringt dir eine wertvolle Nachricht."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Du findest einen alten Brief – er stärkt deinen Mut."
+		},
+		{
+			"type": "success_msg",
+			"style": "success",
+			"text": "Deine Sinne schärfen sich – du erkennst eine Gefahr im Voraus."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Ein plötzlicher Schatten streift dich – du verlierst Lebensenergie."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Du trittst in eine Falle und verletzt dich."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Ein magischer Sturm trifft dich mit voller Wucht."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Deine Tasche ist beschädigt – einige Gegenstände sind verloren."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Eine dunkle Präsenz raubt dir deine Kraft."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Du wirst von seltsamen Stimmen heimgesucht – deine Moral sinkt."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Dein Weg wird durch unheimliche Kreaturen blockiert."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Ein Dieb stiehlt dir unbemerkt etwas aus deinem Inventar."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Du verlierst die Orientierung in dichtem Nebel."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Ein Bann lähmt dich vorübergehend."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Dein Feuerholz ist nass – du kannst kein Lager machen."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Ein bösartiger Blick lähmt dich mit Angst."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Du stürzt in ein Erdloch und verletzt dich am Bein."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Dein Amulett zerbricht – ein Teil deiner Macht geht verloren."
+		},
+		{
+			"type": "error_msg",
+			"style": "error",
+			"text": "Ein alter Fluch aktiviert sich plötzlich."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Du öffnest eine Truhe und findest: {item_name}!"
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "In einem Haufen Asche entdeckst du {item_name}."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Ein Monster ließ etwas fallen – {item_name} gehört jetzt dir."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Versteckt unter einem Stein findest du {item_name}."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Du erhältst {item_name} als Belohnung für deinen Mut."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Ein Lichtschein führt dich zu {item_name}."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Du gräbst im Sand und findest {item_name}."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Du hast {item_name} durch Zufall entdeckt!"
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Du gewinnst {item_name} im Spiel gegen einen Händler."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Ein geheimnisvoller Fremder übergibt dir {item_name}."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "{item_name} erscheint plötzlich in deiner Tasche."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Ein Rätsel wurde gelöst – als Belohnung bekommst du {item_name}."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Deine Geduld zahlt sich aus – du findest {item_name}."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Ein alter Baum wirft {item_name} ab."
+		},
+		{
+			"type": "loot_msg",
+			"style": "info",
+			"text": "Du findest {item_name} in einer alten Höhle."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Sei vorsichtigFremder. Nicht alles ist so friedlich"
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Ich habe Geschichten gehört von einem Schatz tief im Osten."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Du erinnerst mich an jemanden... einen alten Helden vielleicht."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Meine Katze ist verschwunden. Wenn du sie findestbekommst du eine Belohnung."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Man sagtdie Sterne flüstern mit jenen"
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Schau dich gut um. Manchmal versteckt sich das Wertvollste direkt vor deinen Augen."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Die Dunkelheit wächst. Pass auf dich auf da draußen."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Wenn du nach Süden gehstnimm genügend Tränke mit."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Ich war einst Abenteurer wie du – bis ich ein Schwert im Knie hatte."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Hast du etwas zu handeln? Ich suche besondere Materialien."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Hier war früher eine große Stadt... jetzt ist nur noch Stille."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Suchst du Arbeit? Ich habe da etwas für dich... wenn du mutig bist."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Hörst du das? Etwas stimmt nicht mit diesem Ort."
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Der Fluss spricht. Hast du es bemerkt?"
+		},
+		{
+			"type": "npc_msg",
+			"style": "warning",
+			"text": "Einmal war ich auf der anderen Seite der Berge – dort gibt es Wunder."
+		},
+		{
+			"type": "combat_msg",
+			"style": "info",
+			"text": "Ein Schatten bewegt sich – bereite dich auf den Kampf vor!"
+		},
+		{
+			"type": "combat_msg",
+			"style": "info",
+			"text": "Dein Herz schlägt schneller – ein Gegner nähert sich!"
+		},
+		{
+			"type": "combat_msg",
+			"style": "info",
+			"text": "Du hast den falschen Pfad gewählt!ruft dein Feind."
+		},
+		{
+			"type": "combat_msg",
+			"style": "info",
+			"text": "Dein Gegner zieht seine Waffe. Keine Gnade!"
+		},
+		{
+			"type": "combat_msg",
+			"style": "info",
+			"text": "Du spürst feindliche Präsenz – der Kampf beginnt."
+		},
+		{
+			"type": "combat_msg",
+			"style": "info",
+			"text": "Das wird dir noch leid tun!schreit dein Widersacher."
+		},
+		{
+			"type": "combat_msg",
+			"style": "info",
+			"text": "Ein Geräusch hinter dir – du wirst angegriffen!"
+		},
+		{
+			"type": "combat_msg",
+			"style": "info",
+			"text": "Endlich ein würdiger Gegner!ruft der Feind."
+		},
+		{
+			"type": "combat_msg",
+			"style": "info",
+			"text": "Der Boden zittert – etwas Großes nähert sich."
+		},
+		{
+			"type": "combat_msg",
+			"style": "info",
+			"text": "Dein Instinkt war richtig – du bist nicht allein."
+		},
+		{
+			"type": "info_msg",
+			"style": "success",
+			"text": "Du fühlst dich stärker – du bist aufgestiegen!"
+		},
+		{
+			"type": "info_msg",
+			"style": "success",
+			"text": "Ein neues Level! Neue Kräfte erwachen in dir."
+		},
+		{
+			"type": "info_msg",
+			"style": "success",
+			"text": "Dein Training zahlt sich aus – du bist gewachsen."
+		},
+		{
+			"type": "info_msg",
+			"style": "success",
+			"text": "Du meisterst eine neue Fähigkeit."
+		},
+		{
+			"type": "info_msg",
+			"style": "success",
+			"text": "Ein Licht durchdringt dich – du hast ein Level erreicht."
+		},
+		{
+			"type": "info_msg",
+			"style": "success",
+			"text": "Dein Körper pulsiert vor Energie – Level Up!"
+		},
+		{
+			"type": "info_msg",
+			"style": "success",
+			"text": "Erfahrung macht dich weiser – du bist bereit für mehr."
+		},
+		{
+			"type": "info_msg",
+			"style": "success",
+			"text": "Die Luft um dich vibriert – du entwickelst dich weiter."
+		},
+		{
+			"type": "info_msg",
+			"style": "success",
+			"text": "Du bist nun mächtiger als je zuvor."
+		},
+		{
+			"type": "info_msg",
+			"style": "success",
+			"text": "Gut gemacht!hörst du eine Stimme in deinem Inneren."
+		},
+		{
+			"type": "quest_msg",
+			"style": "info",
+			"text": "Du hast einen neuen Auftrag erhalten."
+		},
+		{
+			"type": "quest_msg",
+			"style": "info",
+			"text": "Die Aufgabe ist abgeschlossen – kehre zum Auftraggeber zurück."
+		},
+		{
+			"type": "quest_msg",
+			"style": "info",
+			"text": "Ein Tagebucheintrag wurde aktualisiert."
+		},
+		{
+			"type": "quest_msg",
+			"style": "info",
+			"text": "Dein Fortschritt wurde gespeichert."
+		},
+		{
+			"type": "quest_msg",
+			"style": "info",
+			"text": "Du findest einen Hinweis auf das nächste Ziel."
+		},
+		{
+			"type": "quest_msg",
+			"style": "info",
+			"text": "Etwas stimmt nicht... die Quest entwickelt sich anders."
+		},
+		{
+			"type": "quest_msg",
+			"style": "info",
+			"text": "Ein neuer Ort wurde auf deiner Karte markiert."
+		},
+		{
+			"type": "quest_msg",
+			"style": "info",
+			"text": "Ein alter Bekannter hat dir eine neue Mission gegeben."
+		},
+		{
+			"type": "quest_msg",
+			"style": "info",
+			"text": "Du brauchst ein besonderes Item für diese Aufgabe."
+		},
+		{
+			"type": "quest_msg",
+			"style": "info",
+			"text": "Die Belohnung für diese Aufgabe wartet auf dich."
+		}
+	],
+	"menu": [
+		{
+			"name": "Start",
+			"href": "/",
+			"icon": "nwp-start",
+			"hidden": false,
+			"avatar": "https://i.imgur.com/EfrrJZm.png"
+		},
+		{
+			"name": "Dungeon",
+			"href": "/game/dungeon",
+			"icon": "nwp-player",
+			"hidden": false,
+			"avatar": "https://i.imgur.com/6CYHQVL.png"
+		},
+		{
+			"name": "Monster",
+			"href": "/game/monster",
+			"icon": "nwp-enemy",
+			"hidden": false,
+			"avatar": "https://i.imgur.com/Goa1DfX.png"
+		},
+		{
+			"name": "Battle",
+			"href": "/game/battle",
+			"icon": "nwp-pokeball",
+			"hidden": false,
+			"avatar": "https://i.imgur.com/giWfpu0.png"
+		},
+		{
+			"name": "Settings",
+			"href": "/game/settings",
+			"icon": "nwp-options",
+			"hidden": false,
+			"avatar": "https://i.imgur.com/uC1L2Qy.png"
+		}
+	]
+}

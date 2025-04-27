@@ -1,0 +1,107 @@
+<script lang="ts">
+	import './dungeon-grid.scss'
+	import { renderDungeonToCanvas } from './dungeon-generator'
+	import generateDungeon from './generateDungeon'
+
+	let config = $state({
+		rows: 40,
+		cols: 60,
+		gap: 1,
+		size: 800
+	})
+	let style = $derived(
+		`--gg-size: ${config.size}px;	--gg-gap: ${config.gap}px;	--gg-cols: ${config.cols};`
+	)
+
+	let dungeon = $state([])
+	let tileMap: string[][] = $state([])
+
+	let rooms = $state([])
+	let doors = $state([])
+
+	let player = $state({ x: 0, y: 0 })
+	let miniCanvas: HTMLCanvasElement
+
+	const drawDungeon = (width = 50, height = 30) => {
+		dungeon = generateDungeon(width, height)
+		tileMap = dungeon.displayMap
+		rooms = dungeon.rooms
+		doors = dungeon.doors
+		const areals = dungeon.areals
+		for (const key of areals) {
+			var parts = key.split(',')
+			var x = parseInt(parts[0])
+			var y = parseInt(parts[1])
+			tileMap[y][x] = 'r'
+		}
+		doors.forEach(({ x, y }) => {
+			tileMap[y][x] = 'D'
+		})
+		const { centerX, centerY } = rooms[0]
+		player = { x: centerX, y: centerY }
+	}
+
+	const recreate = () => {
+		drawDungeon(config.cols, config.rows)
+	}
+
+	recreate()
+
+	$effect(() => {
+		if (tileMap && miniCanvas) {
+			renderDungeonToCanvas(miniCanvas, tileMap)
+		}
+	})
+</script>
+
+<article class="flex justify-center py-4">
+	<h1 class="text-4xl font-bold">Dungeon Generator 2</h1>
+	<p>Player {player.x} {player.y}</p>
+</article>
+<article class="flex justify-center py-4">
+	<div class="rogue-grid" {style}>
+		{#each tileMap as row, y}
+			{#each row as col, x}
+				<span
+					class="tile"
+					class:blank={col === 'x'}
+					class:wall={col === '#'}
+					class:floor={col === '.'}
+					class:obs={col === 'o'}
+					class:room={col === 'r'}
+					class:door={col === 'D'}>
+					{#if player.x == x && player.y == y}
+						<span class="player"></span>
+					{/if}
+				</span>
+			{/each}
+		{/each}
+	</div>
+</article>
+<article class="mb-4 flex flex-col items-center gap-4 py-4">
+	<div class="join">
+		<label class="input join-item">
+			<span>Cols</span>
+			<input type="number" bind:value={config.cols} min={10} max={100} />
+		</label>
+		<label class="input join-item">
+			<span>Rows</span>
+			<input type="number" bind:value={config.rows} min={10} max={100} />
+		</label>
+		<button class="btn btn-neutral join-item" onclick={recreate}
+			>Generate</button>
+	</div>
+
+	<canvas bind:this={miniCanvas} id="minimap" class="border border-gray-500"
+	></canvas>
+	<div>
+		<div class="bg-base-100 border-base-300 collapse border">
+			<input type="checkbox" />
+			<div class="collapse-title font-semibold">Map JSON</div>
+			<div class="collapse-content text-sm">
+				<textarea class="textarea w-xl" rows="10"
+					>{JSON.stringify(dungeon)}</textarea>
+			</div>
+		</div>
+	</div>
+</article>

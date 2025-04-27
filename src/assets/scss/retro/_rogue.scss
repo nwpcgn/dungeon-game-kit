@@ -1,0 +1,46 @@
+:root {
+	--ro-width: 20px;
+	--ro-height: 20px;
+	--ro-gap: 1px;
+	--ro-cols: 30;
+	--ro-rows: 30;
+}
+
+.roguelike-grid {
+	display: grid;
+	grid-template-columns: repeat(var(--ro-cols), minmax(0, var(--ro-width)));
+	grid-template-rows: repeat(var(--ro-rows), minmax(0, var(--ro-height)));
+	gap: var(--ro-gap);
+	padding: var(--ro-gap);
+	position: relative;
+
+	> * {
+		display: grid;
+		grid-template: 1 / 1;
+		aspect-ratio: 1 / 1;
+		position: relative;
+		overflow: hidden;
+
+		> * {
+			grid-row: 1;
+			grid-column: 1;
+			display: grid;
+			place-content: center;
+			overflow: hidden;
+		}
+	}
+}
+
+$icons: (
+	'tile-0': #cbd5e1,
+	'tile-1': #0069a8,
+	'tile-3': #1e293b
+);
+
+@each $name, $color in $icons {
+	.#{$name} {
+		--tile-color: #{$color};
+		background-color: var(--tile-color);
+		color: var(--tile-color);
+	}
+}

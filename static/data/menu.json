@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Start",
+		"href": "/",
+		"icon": "nwp-start",
+		"hidden": false,
+		"avatar": "https://i.imgur.com/EfrrJZm.png"
+	},
+	{
+		"name": "Dungeon",
+		"href": "/game/dungeon",
+		"icon": "nwp-player",
+		"hidden": false,
+		"avatar": "https://i.imgur.com/6CYHQVL.png"
+	},
+	{
+		"name": "Monster",
+		"href": "/game/monster",
+		"icon": "nwp-enemy",
+		"hidden": false,
+		"avatar": "https://i.imgur.com/Goa1DfX.png"
+	},
+	{
+		"name": "Battle",
+		"href": "/game/battle",
+		"icon": "nwp-pokeball",
+		"hidden": false,
+		"avatar": "https://i.imgur.com/giWfpu0.png"
+	},
+	{
+		"name": "Settings",
+		"href": "/game/settings",
+		"icon": "nwp-options",
+		"hidden": false,
+		"avatar": "https://i.imgur.com/uC1L2Qy.png"
+	}
+]

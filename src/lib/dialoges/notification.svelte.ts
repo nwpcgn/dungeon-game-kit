@@ -1,0 +1,522 @@
+export interface Alert {
+	id?: string | null
+	type: string
+	style: string
+	text: string
+}
+
+class Notes {
+	list: Alert = $state([])
+	addNote(note: Alert) {
+		const def = {
+			text: 'Alert',
+			style: 'info',
+			delay: null
+		}
+		const id = crypto.randomUUID()
+		const obj = { ...def, ...note, id }
+		this.list.push(obj)
+		if (obj.delay) setTimeout(() => this.delNote(id), obj.delay)
+	}
+	delNote(id = '') {
+		this.list = this.list.filter((d) => d.id !== id)
+	}
+}
+
+export let notes = new Notes()
+export const messages = {
+	success: [
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Du spürst eine warme Energie – deine Wunden heilen sich!'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Ein Lichtstrahl trifft dich. Du fühlst dich plötzlich stärker.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Du findest einen geheimen Pfadder dir Zeit erspart.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Ein freundlicher Geist überreicht dir ein Geschenk.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Ein alter Zauber wurde aufgelöst – du fühlst dich erleichtert.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Die Sonne bricht durch die Wolken und füllt dich mit Hoffnung.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Du entdeckst eine Quelle reiner Magie – deine Kraft ist erneuert.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Ein Reisender segnet dich mit Glück auf deinem Weg.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Ein altes Lied erklingt – du fühlst dich inspiriert.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Ein Schutzkreis schützt dich vor dem nächsten Schaden.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Du wirst mit einer Vision der Zukunft erfüllt – und fühlst dich vorbereitet.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Du erhältst einen geheimen Segen – deine nächste Begegnung wird einfacher.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Ein Vogel bringt dir eine wertvolle Nachricht.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Du findest einen alten Brief – er stärkt deinen Mut.'
+		},
+		{
+			type: 'success',
+			style: 'success',
+			text: 'Deine Sinne schärfen sich – du erkennst eine Gefahr im Voraus.'
+		}
+	],
+	error: [
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Ein plötzlicher Schatten streift dich – du verlierst Lebensenergie.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Du trittst in eine Falle und verletzt dich.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Ein magischer Sturm trifft dich mit voller Wucht.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Deine Tasche ist beschädigt – einige Gegenstände sind verloren.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Eine dunkle Präsenz raubt dir deine Kraft.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Du wirst von seltsamen Stimmen heimgesucht – deine Moral sinkt.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Dein Weg wird durch unheimliche Kreaturen blockiert.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Ein Dieb stiehlt dir unbemerkt etwas aus deinem Inventar.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Du verlierst die Orientierung in dichtem Nebel.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Ein Bann lähmt dich vorübergehend.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Dein Feuerholz ist nass – du kannst kein Lager machen.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Ein bösartiger Blick lähmt dich mit Angst.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Du stürzt in ein Erdloch und verletzt dich am Bein.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Dein Amulett zerbricht – ein Teil deiner Macht geht verloren.'
+		},
+		{
+			type: 'error',
+			style: 'error',
+			text: 'Ein alter Fluch aktiviert sich plötzlich.'
+		}
+	],
+	info: [
+		{
+			type: 'info',
+			style: 'success',
+			text: 'Du fühlst dich stärker – du bist aufgestiegen!'
+		},
+		{
+			type: 'info',
+			style: 'success',
+			text: 'Ein neues Level! Neue Kräfte erwachen in dir.'
+		},
+		{
+			type: 'info',
+			style: 'success',
+			text: 'Dein Training zahlt sich aus – du bist gewachsen.'
+		},
+		{
+			type: 'info',
+			style: 'success',
+			text: 'Du meisterst eine neue Fähigkeit.'
+		},
+		{
+			type: 'info',
+			style: 'success',
+			text: 'Ein Licht durchdringt dich – du hast ein Level erreicht.'
+		},
+		{
+			type: 'info',
+			style: 'success',
+			text: 'Dein Körper pulsiert vor Energie – Level Up!'
+		},
+		{
+			type: 'info',
+			style: 'success',
+			text: 'Erfahrung macht dich weiser – du bist bereit für mehr.'
+		},
+		{
+			type: 'info',
+			style: 'success',
+			text: 'Die Luft um dich vibriert – du entwickelst dich weiter.'
+		},
+		{
+			type: 'info',
+			style: 'success',
+			text: 'Du bist nun mächtiger als je zuvor.'
+		},
+		{
+			type: 'info',
+			style: 'success',
+			text: 'Gut gemacht!hörst du eine Stimme in deinem Inneren.'
+		}
+	],
+	loot: [
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Du öffnest eine Truhe und findest: {item_name}!'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'In einem Haufen Asche entdeckst du {item_name}.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Ein Monster ließ etwas fallen – {item_name} gehört jetzt dir.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Versteckt unter einem Stein findest du {item_name}.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Du erhältst {item_name} als Belohnung für deinen Mut.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Ein Lichtschein führt dich zu {item_name}.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Du gräbst im Sand und findest {item_name}.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Du hast {item_name} durch Zufall entdeckt!'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Du gewinnst {item_name} im Spiel gegen einen Händler.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Ein geheimnisvoller Fremder übergibt dir {item_name}.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: '{item_name} erscheint plötzlich in deiner Tasche.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Ein Rätsel wurde gelöst – als Belohnung bekommst du {item_name}.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Deine Geduld zahlt sich aus – du findest {item_name}.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Ein alter Baum wirft {item_name} ab.'
+		},
+		{
+			type: 'loot',
+			style: 'info',
+			text: 'Du findest {item_name} in einer alten Höhle.'
+		}
+	],
+	npc: [
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Sei vorsichtigFremder. Nicht alles ist so friedlich'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Ich habe Geschichten gehört von einem Schatz tief im Osten.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Du erinnerst mich an jemanden... einen alten Helden vielleicht.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Meine Katze ist verschwunden. Wenn du sie findestbekommst du eine Belohnung.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Man sagtdie Sterne flüstern mit jenen'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Schau dich gut um. Manchmal versteckt sich das Wertvollste direkt vor deinen Augen.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Die Dunkelheit wächst. Pass auf dich auf da draußen.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Wenn du nach Süden gehstnimm genügend Tränke mit.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Ich war einst Abenteurer wie du – bis ich ein Schwert im Knie hatte.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Hast du etwas zu handeln? Ich suche besondere Materialien.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Hier war früher eine große Stadt... jetzt ist nur noch Stille.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Suchst du Arbeit? Ich habe da etwas für dich... wenn du mutig bist.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Hörst du das? Etwas stimmt nicht mit diesem Ort.'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Der Fluss spricht. Hast du es bemerkt?'
+		},
+		{
+			type: 'npc',
+			style: 'warning',
+			text: 'Einmal war ich auf der anderen Seite der Berge – dort gibt es Wunder.'
+		}
+	],
+	combat: [
+		{
+			type: 'combat',
+			style: 'info',
+			text: 'Ein Schatten bewegt sich – bereite dich auf den Kampf vor!'
+		},
+		{
+			type: 'combat',
+			style: 'info',
+			text: 'Dein Herz schlägt schneller – ein Gegner nähert sich!'
+		},
+		{
+			type: 'combat',
+			style: 'info',
+			text: 'Du hast den falschen Pfad gewählt!ruft dein Feind.'
+		},
+		{
+			type: 'combat',
+			style: 'info',
+			text: 'Dein Gegner zieht seine Waffe. Keine Gnade!'
+		},
+		{
+			type: 'combat',
+			style: 'info',
+			text: 'Du spürst feindliche Präsenz – der Kampf beginnt.'
+		},
+		{
+			type: 'combat',
+			style: 'info',
+			text: 'Das wird dir noch leid tun!schreit dein Widersacher.'
+		},
+		{
+			type: 'combat',
+			style: 'info',
+			text: 'Ein Geräusch hinter dir – du wirst angegriffen!'
+		},
+		{
+			type: 'combat',
+			style: 'info',
+			text: 'Endlich ein würdiger Gegner!ruft der Feind.'
+		},
+		{
+			type: 'combat',
+			style: 'info',
+			text: 'Der Boden zittert – etwas Großes nähert sich.'
+		},
+		{
+			type: 'combat',
+			style: 'info',
+			text: 'Dein Instinkt war richtig – du bist nicht allein.'
+		}
+	],
+	quest: [
+		{
+			type: 'quest',
+			style: 'info',
+			text: 'Du hast einen neuen Auftrag erhalten.'
+		},
+		{
+			type: 'quest',
+			style: 'info',
+			text: 'Die Aufgabe ist abgeschlossen – kehre zum Auftraggeber zurück.'
+		},
+		{
+			type: 'quest',
+			style: 'info',
+			text: 'Ein Tagebucheintrag wurde aktualisiert.'
+		},
+		{
+			type: 'quest',
+			style: 'info',
+			text: 'Dein Fortschritt wurde gespeichert.'
+		},
+		{
+			type: 'quest',
+			style: 'info',
+			text: 'Du findest einen Hinweis auf das nächste Ziel.'
+		},
+		{
+			type: 'quest',
+			style: 'info',
+			text: 'Etwas stimmt nicht... die Quest entwickelt sich anders.'
+		},
+		{
+			type: 'quest',
+			style: 'info',
+			text: 'Ein neuer Ort wurde auf deiner Karte markiert.'
+		},
+		{
+			type: 'quest',
+			style: 'info',
+			text: 'Ein alter Bekannter hat dir eine neue Mission gegeben.'
+		},
+		{
+			type: 'quest',
+			style: 'info',
+			text: 'Du brauchst ein besonderes Item für diese Aufgabe.'
+		},
+		{
+			type: 'quest',
+			style: 'info',
+			text: 'Die Belohnung für diese Aufgabe wartet auf dich.'
+		}
+	]
+}
+export const atlas = {
+	success: {
+		style: 'alert-success',
+		icon: 'nwp-star'
+	},
+	error: {
+		style: 'alert-error',
+		icon: 'nwp-warning'
+	},
+	loot: {
+		style: 'alert-warning',
+		icon: 'nwp-warning'
+	},
+	npc: {
+		style: 'alert-info',
+		icon: 'nwp-user'
+	},
+	combat: {
+		style: 'alert-success',
+		icon: 'nwp-skull-1'
+	},
+	info: {
+		style: 'alert-info',
+		icon: 'nwp-info'
+	},
+	quest: {
+		style: 'alert-warning',
+		icon: 'nwp-key'
+	}
+}

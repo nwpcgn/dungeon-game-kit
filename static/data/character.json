@@ -1,0 +1,1019 @@
+[
+	{
+		"id": 1,
+		"name": "Bulbasaur",
+		"hp": 30,
+		"atk": 6,
+		"def": 5,
+		"mana": 4,
+		"sp": 4
+	},
+	{
+		"id": 2,
+		"name": "Ivysaur",
+		"hp": 28,
+		"atk": 7,
+		"def": 5,
+		"mana": 8,
+		"sp": 3
+	},
+	{
+		"id": 3,
+		"name": "Gigantamax Venusaur",
+		"hp": 32,
+		"atk": 5,
+		"def": 3,
+		"mana": 9,
+		"sp": 4
+	},
+	{
+		"id": 4,
+		"name": "Charmander",
+		"hp": 33,
+		"atk": 6,
+		"def": 3,
+		"mana": 7,
+		"sp": 9
+	},
+	{
+		"id": 5,
+		"name": "Charmeleon",
+		"hp": 27,
+		"atk": 6,
+		"def": 4,
+		"mana": 5,
+		"sp": 4
+	},
+	{
+		"id": 6,
+		"name": "Charizard",
+		"hp": 35,
+		"atk": 5,
+		"def": 5,
+		"mana": 9,
+		"sp": 9
+	},
+	{
+		"id": 7,
+		"name": "Squirtle",
+		"hp": 30,
+		"atk": 7,
+		"def": 4,
+		"mana": 6,
+		"sp": 5
+	},
+	{
+		"id": 8,
+		"name": "Wartortle",
+		"hp": 25,
+		"atk": 8,
+		"def": 5,
+		"mana": 6,
+		"sp": 4
+	},
+	{
+		"id": 9,
+		"name": "Blastoise",
+		"hp": 30,
+		"atk": 7,
+		"def": 3,
+		"mana": 4,
+		"sp": 4
+	},
+	{
+		"id": 10,
+		"name": "Gigantamax Blasoise",
+		"hp": 32,
+		"atk": 7,
+		"def": 6,
+		"mana": 4,
+		"sp": 9
+	},
+	{
+		"id": 11,
+		"name": "Mega Blastoise",
+		"hp": 34,
+		"atk": 8,
+		"def": 5,
+		"mana": 4,
+		"sp": 8
+	},
+	{
+		"id": 12,
+		"name": "Caterpie",
+		"hp": 34,
+		"atk": 4,
+		"def": 5,
+		"mana": 5,
+		"sp": 8
+	},
+	{
+		"id": 13,
+		"name": "Metapod",
+		"hp": 27,
+		"atk": 5,
+		"def": 6,
+		"mana": 3,
+		"sp": 9
+	},
+	{
+		"id": 14,
+		"name": "Butterfree",
+		"hp": 29,
+		"atk": 8,
+		"def": 6,
+		"mana": 7,
+		"sp": 3
+	},
+	{
+		"id": 15,
+		"name": "Gigantamax Butterfree",
+		"hp": 26,
+		"atk": 8,
+		"def": 6,
+		"mana": 4,
+		"sp": 5
+	},
+	{
+		"id": 16,
+		"name": "Weedle",
+		"hp": 29,
+		"atk": 5,
+		"def": 5,
+		"mana": 5,
+		"sp": 3
+	},
+	{
+		"id": 17,
+		"name": "Kakuna",
+		"hp": 26,
+		"atk": 6,
+		"def": 6,
+		"mana": 3,
+		"sp": 8
+	},
+	{
+		"id": 18,
+		"name": "Beedrill",
+		"hp": 26,
+		"atk": 8,
+		"def": 6,
+		"mana": 6,
+		"sp": 9
+	},
+	{
+		"id": 19,
+		"name": "Mega Beedrill",
+		"hp": 28,
+		"atk": 8,
+		"def": 5,
+		"mana": 5,
+		"sp": 9
+	},
+	{
+		"id": 20,
+		"name": "Pidgey",
+		"hp": 34,
+		"atk": 6,
+		"def": 5,
+		"mana": 5,
+		"sp": 9
+	},
+	{
+		"id": 21,
+		"name": "Pidgeotto",
+		"hp": 26,
+		"atk": 5,
+		"def": 6,
+		"mana": 9,
+		"sp": 3
+	},
+	{
+		"id": 22,
+		"name": "Mega Pidgeot",
+		"hp": 32,
+		"atk": 6,
+		"def": 6,
+		"mana": 3,
+		"sp": 9
+	},
+	{
+		"id": 23,
+		"name": "Pidgeot",
+		"hp": 25,
+		"atk": 7,
+		"def": 6,
+		"mana": 5,
+		"sp": 6
+	},
+	{
+		"id": 24,
+		"name": "Rattata",
+		"hp": 28,
+		"atk": 8,
+		"def": 5,
+		"mana": 9,
+		"sp": 5
+	},
+	{
+		"id": 25,
+		"name": "Raticate",
+		"hp": 30,
+		"atk": 5,
+		"def": 3,
+		"mana": 6,
+		"sp": 3
+	},
+	{
+		"id": 26,
+		"name": "Spearow",
+		"hp": 33,
+		"atk": 5,
+		"def": 5,
+		"mana": 6,
+		"sp": 8
+	},
+	{
+		"id": 27,
+		"name": "Fearow",
+		"hp": 26,
+		"atk": 6,
+		"def": 5,
+		"mana": 7,
+		"sp": 4
+	},
+	{
+		"id": 28,
+		"name": "Ekans",
+		"hp": 34,
+		"atk": 8,
+		"def": 5,
+		"mana": 7,
+		"sp": 7
+	},
+	{
+		"id": 29,
+		"name": "Arbok",
+		"hp": 27,
+		"atk": 7,
+		"def": 5,
+		"mana": 6,
+		"sp": 5
+	},
+	{
+		"id": 30,
+		"name": "Gigantamax Pikachu",
+		"hp": 35,
+		"atk": 6,
+		"def": 4,
+		"mana": 3,
+		"sp": 8
+	},
+	{
+		"id": 31,
+		"name": "Pikachu",
+		"hp": 26,
+		"atk": 7,
+		"def": 5,
+		"mana": 6,
+		"sp": 3
+	},
+	{
+		"id": 32,
+		"name": "Raichu",
+		"hp": 27,
+		"atk": 8,
+		"def": 3,
+		"mana": 8,
+		"sp": 5
+	},
+	{
+		"id": 33,
+		"name": "Sandshrew",
+		"hp": 32,
+		"atk": 6,
+		"def": 5,
+		"mana": 6,
+		"sp": 8
+	},
+	{
+		"id": 34,
+		"name": "Sandslash",
+		"hp": 31,
+		"atk": 8,
+		"def": 4,
+		"mana": 8,
+		"sp": 5
+	},
+	{
+		"id": 35,
+		"name": "Nidoran♀",
+		"hp": 27,
+		"atk": 8,
+		"def": 3,
+		"mana": 7,
+		"sp": 6
+	},
+	{
+		"id": 36,
+		"name": "Nidorina",
+		"hp": 30,
+		"atk": 4,
+		"def": 5,
+		"mana": 3,
+		"sp": 5
+	},
+	{
+		"id": 37,
+		"name": "Nidoqueen",
+		"hp": 27,
+		"atk": 6,
+		"def": 4,
+		"mana": 4,
+		"sp": 3
+	},
+	{
+		"id": 38,
+		"name": "Nidoran♂",
+		"hp": 31,
+		"atk": 6,
+		"def": 4,
+		"mana": 3,
+		"sp": 8
+	},
+	{
+		"id": 39,
+		"name": "Nidorino",
+		"hp": 26,
+		"atk": 7,
+		"def": 5,
+		"mana": 8,
+		"sp": 5
+	},
+	{
+		"id": 40,
+		"name": "Nidoking",
+		"hp": 32,
+		"atk": 5,
+		"def": 5,
+		"mana": 5,
+		"sp": 5
+	},
+	{
+		"id": 41,
+		"name": "Clefairy",
+		"hp": 32,
+		"atk": 4,
+		"def": 4,
+		"mana": 8,
+		"sp": 7
+	},
+	{
+		"id": 42,
+		"name": "Clefable",
+		"hp": 30,
+		"atk": 6,
+		"def": 4,
+		"mana": 7,
+		"sp": 4
+	},
+	{
+		"id": 43,
+		"name": "Vulpix",
+		"hp": 35,
+		"atk": 4,
+		"def": 4,
+		"mana": 9,
+		"sp": 9
+	},
+	{
+		"id": 44,
+		"name": "Ninetales",
+		"hp": 31,
+		"atk": 6,
+		"def": 4,
+		"mana": 6,
+		"sp": 5
+	},
+	{
+		"id": 45,
+		"name": "Jigglypuff",
+		"hp": 28,
+		"atk": 8,
+		"def": 5,
+		"mana": 9,
+		"sp": 3
+	},
+	{
+		"id": 46,
+		"name": "Wigglytuff",
+		"hp": 31,
+		"atk": 6,
+		"def": 5,
+		"mana": 8,
+		"sp": 7
+	},
+	{
+		"id": 47,
+		"name": "Zubat",
+		"hp": 31,
+		"atk": 7,
+		"def": 3,
+		"mana": 9,
+		"sp": 4
+	},
+	{
+		"id": 48,
+		"name": "Golbat",
+		"hp": 32,
+		"atk": 6,
+		"def": 3,
+		"mana": 3,
+		"sp": 5
+	},
+	{
+		"id": 49,
+		"name": "Oddish",
+		"hp": 32,
+		"atk": 4,
+		"def": 4,
+		"mana": 3,
+		"sp": 6
+	},
+	{
+		"id": 50,
+		"name": "Gloom",
+		"hp": 31,
+		"atk": 6,
+		"def": 3,
+		"mana": 7,
+		"sp": 6
+	},
+	{
+		"id": 51,
+		"name": "Vileplume",
+		"hp": 33,
+		"atk": 6,
+		"def": 6,
+		"mana": 9,
+		"sp": 6
+	},
+	{
+		"id": 52,
+		"name": "Paras",
+		"hp": 29,
+		"atk": 8,
+		"def": 3,
+		"mana": 5,
+		"sp": 6
+	},
+	{
+		"id": 53,
+		"name": "Parasect",
+		"hp": 31,
+		"atk": 8,
+		"def": 3,
+		"mana": 6,
+		"sp": 6
+	},
+	{
+		"id": 54,
+		"name": "Venonat",
+		"hp": 25,
+		"atk": 6,
+		"def": 6,
+		"mana": 3,
+		"sp": 5
+	},
+	{
+		"id": 55,
+		"name": "Venomoth",
+		"hp": 35,
+		"atk": 6,
+		"def": 3,
+		"mana": 7,
+		"sp": 5
+	},
+	{
+		"id": 56,
+		"name": "Diglett",
+		"hp": 30,
+		"atk": 4,
+		"def": 6,
+		"mana": 5,
+		"sp": 4
+	},
+	{
+		"id": 57,
+		"name": "Dugtrio",
+		"hp": 35,
+		"atk": 5,
+		"def": 5,
+		"mana": 8,
+		"sp": 3
+	},
+	{
+		"id": 58,
+		"name": "Meowth",
+		"hp": 28,
+		"atk": 8,
+		"def": 5,
+		"mana": 5,
+		"sp": 9
+	},
+	{
+		"id": 59,
+		"name": "Gigantamax Meowth",
+		"hp": 27,
+		"atk": 8,
+		"def": 5,
+		"mana": 7,
+		"sp": 8
+	},
+	{
+		"id": 60,
+		"name": "Persian",
+		"hp": 28,
+		"atk": 8,
+		"def": 5,
+		"mana": 4,
+		"sp": 9
+	},
+	{
+		"id": 61,
+		"name": "Psyduck",
+		"hp": 34,
+		"atk": 8,
+		"def": 6,
+		"mana": 7,
+		"sp": 5
+	},
+	{
+		"id": 62,
+		"name": "Golduck",
+		"hp": 25,
+		"atk": 5,
+		"def": 3,
+		"mana": 3,
+		"sp": 4
+	},
+	{
+		"id": 63,
+		"name": "Mankey",
+		"hp": 27,
+		"atk": 5,
+		"def": 3,
+		"mana": 7,
+		"sp": 5
+	},
+	{
+		"id": 64,
+		"name": "Primeape",
+		"hp": 34,
+		"atk": 7,
+		"def": 6,
+		"mana": 8,
+		"sp": 8
+	},
+	{
+		"id": 65,
+		"name": "Growlithe",
+		"hp": 34,
+		"atk": 4,
+		"def": 6,
+		"mana": 3,
+		"sp": 6
+	},
+	{
+		"id": 66,
+		"name": "Arcanine",
+		"hp": 29,
+		"atk": 5,
+		"def": 5,
+		"mana": 3,
+		"sp": 3
+	},
+	{
+		"id": 67,
+		"name": "Poliwag",
+		"hp": 28,
+		"atk": 8,
+		"def": 3,
+		"mana": 3,
+		"sp": 5
+	},
+	{
+		"id": 68,
+		"name": "Poliwhirl",
+		"hp": 29,
+		"atk": 8,
+		"def": 5,
+		"mana": 5,
+		"sp": 5
+	},
+	{
+		"id": 69,
+		"name": "Poliwrath",
+		"hp": 32,
+		"atk": 6,
+		"def": 3,
+		"mana": 8,
+		"sp": 6
+	},
+	{
+		"id": 70,
+		"name": "Abra",
+		"hp": 28,
+		"atk": 4,
+		"def": 5,
+		"mana": 3,
+		"sp": 3
+	},
+	{
+		"id": 71,
+		"name": "Kadabra",
+		"hp": 26,
+		"atk": 6,
+		"def": 5,
+		"mana": 6,
+		"sp": 6
+	},
+	{
+		"id": 72,
+		"name": "Alakazam",
+		"hp": 26,
+		"atk": 4,
+		"def": 5,
+		"mana": 3,
+		"sp": 4
+	},
+	{
+		"id": 73,
+		"name": "Mega Alakazam",
+		"hp": 35,
+		"atk": 7,
+		"def": 3,
+		"mana": 5,
+		"sp": 4
+	},
+	{
+		"id": 74,
+		"name": "Machop",
+		"hp": 30,
+		"atk": 4,
+		"def": 5,
+		"mana": 9,
+		"sp": 5
+	},
+	{
+		"id": 75,
+		"name": "Machoke",
+		"hp": 26,
+		"atk": 7,
+		"def": 6,
+		"mana": 4,
+		"sp": 3
+	},
+	{
+		"id": 76,
+		"name": "Gigantamax Machamp",
+		"hp": 33,
+		"atk": 5,
+		"def": 6,
+		"mana": 3,
+		"sp": 6
+	},
+	{
+		"id": 77,
+		"name": "Machamp",
+		"hp": 28,
+		"atk": 4,
+		"def": 3,
+		"mana": 4,
+		"sp": 8
+	},
+	{
+		"id": 78,
+		"name": "Bellsprout",
+		"hp": 28,
+		"atk": 8,
+		"def": 4,
+		"mana": 4,
+		"sp": 4
+	},
+	{
+		"id": 79,
+		"name": "Weepinbell",
+		"hp": 30,
+		"atk": 6,
+		"def": 6,
+		"mana": 4,
+		"sp": 4
+	},
+	{
+		"id": 80,
+		"name": "Victreebel",
+		"hp": 31,
+		"atk": 5,
+		"def": 6,
+		"mana": 8,
+		"sp": 9
+	},
+	{
+		"id": 81,
+		"name": "Tentacool",
+		"hp": 33,
+		"atk": 6,
+		"def": 5,
+		"mana": 4,
+		"sp": 4
+	},
+	{
+		"id": 82,
+		"name": "Tentacruel",
+		"hp": 29,
+		"atk": 7,
+		"def": 3,
+		"mana": 8,
+		"sp": 4
+	},
+	{
+		"id": 83,
+		"name": "Geodude",
+		"hp": 34,
+		"atk": 4,
+		"def": 6,
+		"mana": 3,
+		"sp": 6
+	},
+	{
+		"id": 84,
+		"name": "Graveler",
+		"hp": 30,
+		"atk": 8,
+		"def": 6,
+		"mana": 9,
+		"sp": 5
+	},
+	{
+		"id": 85,
+		"name": "Golem",
+		"hp": 30,
+		"atk": 7,
+		"def": 3,
+		"mana": 4,
+		"sp": 3
+	},
+	{
+		"id": 86,
+		"name": "Ponyta",
+		"hp": 25,
+		"atk": 6,
+		"def": 6,
+		"mana": 7,
+		"sp": 9
+	},
+	{
+		"id": 87,
+		"name": "Rapidash",
+		"hp": 33,
+		"atk": 6,
+		"def": 6,
+		"mana": 4,
+		"sp": 7
+	},
+	{
+		"id": 88,
+		"name": "Slowpoke",
+		"hp": 34,
+		"atk": 5,
+		"def": 5,
+		"mana": 6,
+		"sp": 5
+	},
+	{
+		"id": 89,
+		"name": "Mega Slowbro",
+		"hp": 28,
+		"atk": 6,
+		"def": 5,
+		"mana": 6,
+		"sp": 5
+	},
+	{
+		"id": 90,
+		"name": "Slowbro",
+		"hp": 26,
+		"atk": 5,
+		"def": 6,
+		"mana": 3,
+		"sp": 7
+	},
+	{
+		"id": 91,
+		"name": "Magnemite",
+		"hp": 31,
+		"atk": 7,
+		"def": 4,
+		"mana": 9,
+		"sp": 5
+	},
+	{
+		"id": 92,
+		"name": "Magneton",
+		"hp": 34,
+		"atk": 8,
+		"def": 4,
+		"mana": 9,
+		"sp": 3
+	},
+	{
+		"id": 93,
+		"name": "Farfetch'd",
+		"hp": 34,
+		"atk": 4,
+		"def": 4,
+		"mana": 9,
+		"sp": 5
+	},
+	{
+		"id": 94,
+		"name": "Doduo",
+		"hp": 28,
+		"atk": 8,
+		"def": 3,
+		"mana": 3,
+		"sp": 9
+	},
+	{
+		"id": 95,
+		"name": "Dodrio",
+		"hp": 29,
+		"atk": 5,
+		"def": 4,
+		"mana": 4,
+		"sp": 6
+	},
+	{
+		"id": 96,
+		"name": "Seel",
+		"hp": 32,
+		"atk": 5,
+		"def": 5,
+		"mana": 5,
+		"sp": 4
+	},
+	{
+		"id": 97,
+		"name": "Dewgong",
+		"hp": 31,
+		"atk": 4,
+		"def": 3,
+		"mana": 6,
+		"sp": 3
+	},
+	{
+		"id": 98,
+		"name": "Grimer",
+		"hp": 25,
+		"atk": 5,
+		"def": 4,
+		"mana": 6,
+		"sp": 4
+	},
+	{
+		"id": 99,
+		"name": "Muk",
+		"hp": 27,
+		"atk": 4,
+		"def": 4,
+		"mana": 3,
+		"sp": 8
+	},
+	{
+		"id": 100,
+		"name": "Shellder",
+		"hp": 34,
+		"atk": 7,
+		"def": 4,
+		"mana": 6,
+		"sp": 8
+	},
+	{
+		"id": 101,
+		"name": "Cloyster",
+		"hp": 31,
+		"atk": 4,
+		"def": 6,
+		"mana": 6,
+		"sp": 4
+	},
+	{
+		"id": 102,
+		"name": "Gastly",
+		"hp": 31,
+		"atk": 4,
+		"def": 5,
+		"mana": 8,
+		"sp": 7
+	},
+	{
+		"id": 103,
+		"name": "Haunter",
+		"hp": 27,
+		"atk": 6,
+		"def": 3,
+		"mana": 3,
+		"sp": 6
+	},
+	{
+		"id": 104,
+		"name": "Gengar",
+		"hp": 25,
+		"atk": 5,
+		"def": 5,
+		"mana": 7,
+		"sp": 3
+	},
+	{
+		"id": 105,
+		"name": "Gigantamax Gengar",
+		"hp": 26,
+		"atk": 5,
+		"def": 5,
+		"mana": 7,
+		"sp": 9
+	},
+	{
+		"id": 106,
+		"name": "Mega Gengar",
+		"hp": 26,
+		"atk": 8,
+		"def": 5,
+		"mana": 6,
+		"sp": 3
+	},
+	{
+		"id": 107,
+		"name": "Onix",
+		"hp": 32,
+		"atk": 7,
+		"def": 3,
+		"mana": 4,
+		"sp": 5
+	},
+	{
+		"id": 108,
+		"name": "Drowzee",
+		"hp": 31,
+		"atk": 5,
+		"def": 6,
+		"mana": 9,
+		"sp": 8
+	},
+	{
+		"id": 109,
+		"name": "Hypno",
+		"hp": 26,
+		"atk": 6,
+		"def": 5,
+		"mana": 3,
+		"sp": 8
+	},
+	{
+		"id": 110,
+		"name": "Krabby",
+		"hp": 26,
+		"atk": 8,
+		"def": 6,
+		"mana": 7,
+		"sp": 4
+	},
+	{
+		"id": 111,
+		"name": "Gigantamax Kingler",
+		"hp": 26,
+		"atk": 4,
+		"def": 4,
+		"mana": 8,
+		"sp": 5
+	},
+	{
+		"id": 112,
+		"name": "Kingler",
+		"hp": 29,
+		"atk": 8,
+		"def": 6,
+		"mana": 3,
+		"sp": 6
+	},
+	{
+		"id": 113,
+		"name": "Mew",
+		"hp": 34,
+		"atk": 7,
+		"def": 5,
+		"mana": 6,
+		"sp": 9
+	}
+]

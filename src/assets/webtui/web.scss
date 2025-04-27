@@ -1,0 +1,17 @@
+[box-~='square'],
+[box-~='round'],
+[box-~='double'] {
+	nav {
+		display: flex;
+		gap: var(--spacing-sm);
+		align-items: center;
+		flex-wrap: wrap;
+		padding: var(--spacing-xs) var(--spacing-base);
+	}
+	section {
+		padding: var(--spacing-base);
+	}
+}
+.nwp-box {
+	--box-rounded-radius: 10px;
+}
