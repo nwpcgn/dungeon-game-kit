@@ -12,6 +12,9 @@ svg {
 	}
 	&.nwp-icon {
 		--fs: 24px;
+		&.game {
+			--fs: 38px;
+		}
 	}
 	&.pkmn-icon {
 		--fs: 20px;

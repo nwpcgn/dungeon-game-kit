@@ -6,6 +6,7 @@ export const load: LayoutLoad = async ({ fetch }) => {
 	const data = await res.json()
 	if (data) {
 		initAssets(data)
+		game.initializeGame()
 	}
 	return {
 		name: 'Nwp-Studio',
@@ -13,7 +14,7 @@ export const load: LayoutLoad = async ({ fetch }) => {
 			{
 				name: 'Start',
 				title: 'Rpg-Game',
-				href: '/',
+				href: '/demo',
 				icon: 'game-start',
 				avatar: 'game-roll',
 				image: '/img/rpg/menu-start.png',
@@ -66,4 +67,11 @@ export const load: LayoutLoad = async ({ fetch }) => {
 			}
 		]
 	}
+}
+
+let b = {
+	name: 'Meme Generator',
+	cost: { beams: 5 },
+	input: { beams: 3 },
+	output: { meams: 5 }
 }

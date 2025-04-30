@@ -275,6 +275,16 @@ class Game {
 		this.player = new Player(62, 'Abby', 30, 5, 6, 5, 3)
 		this.generateLevels()
 		this.currentLevel = this.levels[0]
+		if (assets.loot.length) {
+			let itemList = [
+				assets.loot.shift(),
+				assets.loot.shift(),
+				assets.loot.shift()
+			]
+			itemList.forEach(({ name, type, value }) => {
+				this.player.inventory.push(new Item(name, type, value))
+			})
+		}
 		console.log('Spiel initialisiert. Willkommen in Neon Wasteland!')
 	}
 
